@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         LinearLayout rootLayout = new LinearLayout(this);
         rootLayout.setOrientation(LinearLayout.VERTICAL);
-        rootLayout.setBackgroundColor(Color rgb(red:0, green:255, blue:0));
+        rootLayout.setBackgroundColor(getTitleColor());
         LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.MATCH_PARENT);
         setContentView(rootLayout, params);
         Button btn = new Button(this);
